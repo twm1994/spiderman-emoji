@@ -12,3 +12,8 @@ class EmojiItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+# emoji and correspnding metadata
+class EmojiFile(scrapy.Item):
+    name=scrapy.Field()
+    uri=scrapy.Field()
